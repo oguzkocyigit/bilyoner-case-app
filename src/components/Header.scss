@@ -1,0 +1,12 @@
+@import "../assets/style/variables";
+
+.header {
+  background-color: $dark;
+  text-align: center;
+  padding:15px 0;
+  color: white;
+  margin-bottom:50px;
+  h1 {
+    font-size:42px;
+  }
+}

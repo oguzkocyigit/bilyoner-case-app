@@ -1,0 +1,21 @@
+@import "../assets/style/variables";
+
+.movie-detail-img {
+  width:100%;
+}
+
+button {
+  cursor: pointer;
+  padding:5px 10px;
+  color: $dark;
+  font-size:18px;
+  background: #fff;
+  border:1px solid $dark;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    background: $dark;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    border:1px solid $dark;
+  }
+}

@@ -1,0 +1,25 @@
+@import "../assets/style/variables";
+
+.search-bar {
+  width:100%;
+  input[type="text"] {
+    width:100%;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    font-size:16px;
+    text-indent: 10px;
+    &:focus {
+      outline: 1px solid $dark;
+    }
+  }
+  button[type="submit"] {
+    width:100%;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    font-size:14px;
+    padding:0 10px !important;
+  }
+
+}
